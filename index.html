@@ -24,21 +24,25 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #f8f9fa;
-      background-image: url('assets/dots.svg');
+      /* background-color: #f8f9fa;
+      background-image: url('assets/dots.svg'); */
+
+      background-image: radial-gradient(#a3a3a3af .95px, #ededed .95px);
+      background-size: 19px 19px;
       }
       .container {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      font-size: 2.2rem;
-      font-family: 'Nunito', sans-serif;
-      font-weight: 700;
-      color: #333;
-      background-color: white;
-      padding: 14px 60px 10px;
-      border-radius: 12px;
-      box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        font-size: 2.2rem;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        color: #333;
+        background-color: white;
+        padding: 14px 60px 10px;
+        border-radius: 12px;
+        box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        padding: 20px 80px;
       }
       .icon {
       height: 5.4rem;
@@ -64,14 +68,15 @@
         padding-left: 0.1rem;
 
       }
+      .logo {
+        width: 200px;
+        padding-bottom: 4px;
+      }
     </style>
   </head>
   <body>
     <div class="container">
-      <img src="assets/icon.png" alt="asaflow" class="icon">
-      <span class="brand-text">
-      <span class="brand-as">as</span><span class="brand-dot">·</span><span class="brand-a">a</span><span class="brand-dot">·</span><span class="brand-flow">flow</span>
-      </span>
+      <img src="assets/logo.png" alt="asaflow" class="logo">
     </div>
   </body>
 </html>
